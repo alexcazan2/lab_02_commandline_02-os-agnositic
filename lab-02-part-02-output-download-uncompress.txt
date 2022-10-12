@@ -19,7 +19,7 @@ $ echo hello
 Copy and paste the output below.
 ----------
 
-
+hello
 
 ==========
 2. Type:
@@ -29,7 +29,7 @@ $ echo hello there
 Copy and paste the output below.
 ----------
 
-
+hello there
 
 ==========
 3. Type:
@@ -39,7 +39,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
+N/A
 
 ==========
 4. Uh-oh... we're stuck!
@@ -57,7 +57,7 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.  For example, > brings up a different prompt.  Try *.
@@ -67,7 +67,7 @@ $ echo *
 What happens?
 ----------
 
-
+it tells me my folders
 
 ==========
 7. Ok... that's a lot of output.  How do we clean up our screen so that it's empty again?
@@ -75,7 +75,7 @@ What happens?
 Write the command that you used below:
 ----------
 
-
+clear
 
 ==========
 We're going to practice downloading files from a web site.  We'll use this practice to download more lab materials!
@@ -88,6 +88,15 @@ $ curl google.com
 Copy and paste the output below.
 ----------
 
+$ curl google.com
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   219  100   219    0     0   1486      0 --:--:-- --:--:-- --:--:--  1500<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 
 ==========
@@ -106,6 +115,9 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 Write the command you used below.  Also copy and paste the output below.
 ----------
 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head><meta content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for." name="description"><meta content="noodp" name="robots"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="HMxUEgil8WGCtsYMPZv6aw">(function(){window.google={kEI:'7EJHY-yQDP-XhbIPlZm_uAM',kEXPI:'0,1302532,56877,6058,207,4804,2316,383,246,5,5367,1123753,1197732,380759,16114,19397,9287,22430,1362,12320,17579,4998,13228,3847,10622,22741,2370,2711,1593,1279,2742,149,1103,840,1983,4314,108,4012,2023,1777,520,14670,3227,2845,7,4773,826,28171,1851,2614,12710,432,3,1590,1,5445,148,11323,2652,4,1528,2304,7039,22023,5708,7355,13660,2980,1457,15351,1435,5830,2527,4094,4052,3,3541,1,42157,2,14019,2373,342,4931,6470,11623,5679,1020,2381,28742,4567,6259,23418,1252,5835,14967,4333,2204,2035,3245,445,2,2,1,10957,13669,2006,239,7916,7381,2,3,1396,14569,873,7829,1796,5212,4796,7,1922,5784,3995,19130,12192,4832,2524,3237,2173,9081,123,700,4,1,2,2,2,2,8653,5264,5134,9738,14,82,3890,751,202,1866,125,817,2343,2063,2209,51,958,1239,488,922,613,248,1075,346,109,363,467,683,899,1548,885,274,50,167,743,498,12,98,244,212,931,108,85,766,773,2247,3013,2,4,46,163,1072,28,3,14,821,39,700,892,1,132,444,261,984,724,309,48,99,562,406,192,146,879,564,1113,78,263,166,717,10,308,853,1469,526,30,99,229,26,208,368,1,2,181,513,69,1020,1615,162,48,2,48,30,1,410,387,240,249,38,448,3,250,380,2,107,756,502,174,2023,5326628,75,54,5995794,2803401,3311,141,795,19736,1,298,48,1754,59,14,5,4,3,4,3,94,7,16,4,3,7451655,13276840,3220020,471,4041671,1964,3094,13579,3405,11319,571,1373449,47704',kBL:'LGL5'};google.sn='webhp';google.kHL='en';})();(function(){
 
 
 ==========
@@ -114,7 +126,7 @@ Write the command you used below.  Also copy and paste the output below.
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
 
-
+pwd
 
 ==========
 12. If you're not in your home directory, change to it (use the shortcut).
@@ -122,7 +134,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
 
-
+cd ~
 
 ==========
 13. So... the lab materials are located at this url:
@@ -138,6 +150,7 @@ Use ls to verify that it downloaded.
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
 
+curl -o mtec1003-lab-02.zip https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/mtec1003-lab-02.zip
 
 
 ==========
@@ -146,7 +159,7 @@ Write down the command that you used to download the file below.  Additionally, 
 Write down the command that you used to uncompress the file.
 ----------
 
-
+unzip mtec1003-lab-02.zip
 
 ==========
 15. Change to the directory that was just created.  List the contents (of the directory that was extracted from the labs .zip file). 
@@ -154,6 +167,204 @@ Write down the command that you used to uncompress the file.
 Copy and paste the output below.
 ----------
 
+Archive:  mtec1003-lab-02.zip
+  inflating: mtec1003-lab-02/books/other/pg1232.txt
+  inflating: mtec1003-lab-02/books/science-fiction/pg84.txt
+  inflating: mtec1003-lab-02/books/science-fiction/pg86.txt
+  inflating: mtec1003-lab-02/logs/.DS_Store
+ extracting: mtec1003-lab-02/logs/access-0.log
+ extracting: mtec1003-lab-02/logs/access-1.log
+ extracting: mtec1003-lab-02/logs/access-10.log
+ extracting: mtec1003-lab-02/logs/access-11.log
+ extracting: mtec1003-lab-02/logs/access-111.log
+ extracting: mtec1003-lab-02/logs/access-112.log
+ extracting: mtec1003-lab-02/logs/access-113.log
+ extracting: mtec1003-lab-02/logs/access-114.log
+ extracting: mtec1003-lab-02/logs/access-115.log
+ extracting: mtec1003-lab-02/logs/access-12.log
+ extracting: mtec1003-lab-02/logs/access-122.log
+ extracting: mtec1003-lab-02/logs/access-13.log
+ extracting: mtec1003-lab-02/logs/access-14.log
+ extracting: mtec1003-lab-02/logs/access-15.log
+ extracting: mtec1003-lab-02/logs/access-150.log
+ extracting: mtec1003-lab-02/logs/access-151.log
+ extracting: mtec1003-lab-02/logs/access-152.log
+ extracting: mtec1003-lab-02/logs/access-158.log
+ extracting: mtec1003-lab-02/logs/access-159.log
+ extracting: mtec1003-lab-02/logs/access-16.log
+ extracting: mtec1003-lab-02/logs/access-160.log
+ extracting: mtec1003-lab-02/logs/access-161.log
+ extracting: mtec1003-lab-02/logs/access-162.log
+ extracting: mtec1003-lab-02/logs/access-163.log
+ extracting: mtec1003-lab-02/logs/access-164.log
+ extracting: mtec1003-lab-02/logs/access-166.log
+ extracting: mtec1003-lab-02/logs/access-167.log
+ extracting: mtec1003-lab-02/logs/access-168.log
+ extracting: mtec1003-lab-02/logs/access-17.log
+ extracting: mtec1003-lab-02/logs/access-170.log
+ extracting: mtec1003-lab-02/logs/access-172.log
+ extracting: mtec1003-lab-02/logs/access-174.log
+ extracting: mtec1003-lab-02/logs/access-175.log
+ extracting: mtec1003-lab-02/logs/access-176.log
+ extracting: mtec1003-lab-02/logs/access-177.log
+ extracting: mtec1003-lab-02/logs/access-178.log
+ extracting: mtec1003-lab-02/logs/access-179.log
+ extracting: mtec1003-lab-02/logs/access-18.log
+ extracting: mtec1003-lab-02/logs/access-180.log
+ extracting: mtec1003-lab-02/logs/access-182.log
+ extracting: mtec1003-lab-02/logs/access-183.log
+ extracting: mtec1003-lab-02/logs/access-186.log
+ extracting: mtec1003-lab-02/logs/access-187.log
+ extracting: mtec1003-lab-02/logs/access-189.log
+ extracting: mtec1003-lab-02/logs/access-19.log
+ extracting: mtec1003-lab-02/logs/access-191.log
+ extracting: mtec1003-lab-02/logs/access-192.log
+ extracting: mtec1003-lab-02/logs/access-2.log
+ extracting: mtec1003-lab-02/logs/access-20.log
+ extracting: mtec1003-lab-02/logs/access-204.log
+ extracting: mtec1003-lab-02/logs/access-205.log
+ extracting: mtec1003-lab-02/logs/access-207.log
+ extracting: mtec1003-lab-02/logs/access-208.log
+ extracting: mtec1003-lab-02/logs/access-209.log
+ extracting: mtec1003-lab-02/logs/access-21.log
+ extracting: mtec1003-lab-02/logs/access-210.log
+ extracting: mtec1003-lab-02/logs/access-211.log
+ extracting: mtec1003-lab-02/logs/access-213.log
+ extracting: mtec1003-lab-02/logs/access-22.log
+ extracting: mtec1003-lab-02/logs/access-23.log
+ extracting: mtec1003-lab-02/logs/access-24.log
+ extracting: mtec1003-lab-02/logs/access-25.log
+ extracting: mtec1003-lab-02/logs/access-251.log
+ extracting: mtec1003-lab-02/logs/access-252.log
+ extracting: mtec1003-lab-02/logs/access-253.log
+ extracting: mtec1003-lab-02/logs/access-254.log
+ extracting: mtec1003-lab-02/logs/access-255.log
+ extracting: mtec1003-lab-02/logs/access-256.log
+ extracting: mtec1003-lab-02/logs/access-257.log
+ extracting: mtec1003-lab-02/logs/access-258.log
+ extracting: mtec1003-lab-02/logs/access-26.log
+ extracting: mtec1003-lab-02/logs/access-27.log
+ extracting: mtec1003-lab-02/logs/access-28.log
+ extracting: mtec1003-lab-02/logs/access-29.log
+ extracting: mtec1003-lab-02/logs/access-3.log
+ extracting: mtec1003-lab-02/logs/access-30.log
+ extracting: mtec1003-lab-02/logs/access-31.log
+ extracting: mtec1003-lab-02/logs/access-32.log
+ extracting: mtec1003-lab-02/logs/access-33.log
+ extracting: mtec1003-lab-02/logs/access-34.log
+ extracting: mtec1003-lab-02/logs/access-35.log
+ extracting: mtec1003-lab-02/logs/access-36.log
+ extracting: mtec1003-lab-02/logs/access-37.log
+ extracting: mtec1003-lab-02/logs/access-38.log
+ extracting: mtec1003-lab-02/logs/access-39.log
+ extracting: mtec1003-lab-02/logs/access-4.log
+ extracting: mtec1003-lab-02/logs/access-40.log
+ extracting: mtec1003-lab-02/logs/access-41.log
+ extracting: mtec1003-lab-02/logs/access-42.log
+ extracting: mtec1003-lab-02/logs/access-43.log
+ extracting: mtec1003-lab-02/logs/access-44.log
+ extracting: mtec1003-lab-02/logs/access-45.log
+ extracting: mtec1003-lab-02/logs/access-46.log
+ extracting: mtec1003-lab-02/logs/access-47.log
+ extracting: mtec1003-lab-02/logs/access-48.log
+ extracting: mtec1003-lab-02/logs/access-49.log
+ extracting: mtec1003-lab-02/logs/access-5.log
+ extracting: mtec1003-lab-02/logs/access-50.log
+ extracting: mtec1003-lab-02/logs/access-52.log
+ extracting: mtec1003-lab-02/logs/access-53.log
+ extracting: mtec1003-lab-02/logs/access-56.log
+ extracting: mtec1003-lab-02/logs/access-57.log
+ extracting: mtec1003-lab-02/logs/access-58.log
+ extracting: mtec1003-lab-02/logs/access-6.log
+ extracting: mtec1003-lab-02/logs/access-60.log
+ extracting: mtec1003-lab-02/logs/access-62.log
+ extracting: mtec1003-lab-02/logs/access-63.log
+ extracting: mtec1003-lab-02/logs/access-65.log
+ extracting: mtec1003-lab-02/logs/access-68.log
+ extracting: mtec1003-lab-02/logs/access-69.log
+ extracting: mtec1003-lab-02/logs/access-7.log
+ extracting: mtec1003-lab-02/logs/access-70.log
+ extracting: mtec1003-lab-02/logs/access-72.log
+ extracting: mtec1003-lab-02/logs/access-73.log
+ extracting: mtec1003-lab-02/logs/access-74.log
+ extracting: mtec1003-lab-02/logs/access-76.log
+ extracting: mtec1003-lab-02/logs/access-78.log
+ extracting: mtec1003-lab-02/logs/access-8.log
+ extracting: mtec1003-lab-02/logs/access-81.log
+ extracting: mtec1003-lab-02/logs/access-83.log
+ extracting: mtec1003-lab-02/logs/access-89.log
+ extracting: mtec1003-lab-02/logs/access-9.log
+ extracting: mtec1003-lab-02/logs/access-90.log
+ extracting: mtec1003-lab-02/logs/access-91.log
+ extracting: mtec1003-lab-02/logs/access-93.log
+ extracting: mtec1003-lab-02/logs/archived/access-100.log
+ extracting: mtec1003-lab-02/logs/archived/access-101.log
+ extracting: mtec1003-lab-02/logs/archived/access-102.log
+ extracting: mtec1003-lab-02/logs/archived/access-104.log
+ extracting: mtec1003-lab-02/logs/archived/access-105.log
+ extracting: mtec1003-lab-02/logs/archived/access-106.log
+ extracting: mtec1003-lab-02/logs/archived/access-107.log
+ extracting: mtec1003-lab-02/logs/archived/access-108.log
+ extracting: mtec1003-lab-02/logs/archived/access-109.log
+ extracting: mtec1003-lab-02/logs/archived/access-110.log
+ extracting: mtec1003-lab-02/logs/archived/access-116.log
+ extracting: mtec1003-lab-02/logs/archived/access-117.log
+ extracting: mtec1003-lab-02/logs/archived/access-118.log
+ extracting: mtec1003-lab-02/logs/archived/access-119.log
+ extracting: mtec1003-lab-02/logs/archived/access-120.log
+ extracting: mtec1003-lab-02/logs/archived/access-121.log
+ extracting: mtec1003-lab-02/logs/archived/access-153.log
+ extracting: mtec1003-lab-02/logs/archived/access-154.log
+ extracting: mtec1003-lab-02/logs/archived/access-155.log
+ extracting: mtec1003-lab-02/logs/archived/access-156.log
+ extracting: mtec1003-lab-02/logs/archived/access-157.log
+ extracting: mtec1003-lab-02/logs/archived/access-165.log
+ extracting: mtec1003-lab-02/logs/archived/access-171.log
+ extracting: mtec1003-lab-02/logs/archived/access-173.log
+ extracting: mtec1003-lab-02/logs/archived/access-181.log
+ extracting: mtec1003-lab-02/logs/archived/access-184.log
+ extracting: mtec1003-lab-02/logs/archived/access-185.log
+ extracting: mtec1003-lab-02/logs/archived/access-188.log
+ extracting: mtec1003-lab-02/logs/archived/access-190.log
+ extracting: mtec1003-lab-02/logs/archived/access-193.log
+ extracting: mtec1003-lab-02/logs/archived/access-194.log
+ extracting: mtec1003-lab-02/logs/archived/access-195.log
+ extracting: mtec1003-lab-02/logs/archived/access-196.log
+ extracting: mtec1003-lab-02/logs/archived/access-197.log
+ extracting: mtec1003-lab-02/logs/archived/access-198.log
+ extracting: mtec1003-lab-02/logs/archived/access-199.log
+ extracting: mtec1003-lab-02/logs/archived/access-200.log
+ extracting: mtec1003-lab-02/logs/archived/access-201.log
+ extracting: mtec1003-lab-02/logs/archived/access-203.log
+ extracting: mtec1003-lab-02/logs/archived/access-206.log
+ extracting: mtec1003-lab-02/logs/archived/access-212.log
+ extracting: mtec1003-lab-02/logs/archived/access-214.log
+ extracting: mtec1003-lab-02/logs/archived/access-215.log
+ extracting: mtec1003-lab-02/logs/archived/access-54.log
+ extracting: mtec1003-lab-02/logs/archived/access-55.log
+ extracting: mtec1003-lab-02/logs/archived/access-59.log
+ extracting: mtec1003-lab-02/logs/archived/access-64.log
+ extracting: mtec1003-lab-02/logs/archived/access-71.log
+ extracting: mtec1003-lab-02/logs/archived/access-75.log
+ extracting: mtec1003-lab-02/logs/archived/access-77.log
+ extracting: mtec1003-lab-02/logs/archived/access-79.log
+ extracting: mtec1003-lab-02/logs/archived/access-80.log
+ extracting: mtec1003-lab-02/logs/archived/access-82.log
+ extracting: mtec1003-lab-02/logs/archived/access-84.log
+ extracting: mtec1003-lab-02/logs/archived/access-92.log
+ extracting: mtec1003-lab-02/logs/archived/access-94.log
+ extracting: mtec1003-lab-02/logs/archived/access-95.log
+ extracting: mtec1003-lab-02/logs/archived/access-97.log
+ extracting: mtec1003-lab-02/logs/archived/access-98.log
+ extracting: mtec1003-lab-02/logs/archived/access-99.log
+  inflating: mtec1003-lab-02/web/about.html
+  inflating: mtec1003-lab-02/web/css/screen.css
+ extracting: mtec1003-lab-02/web/img/otters-1.jpg
+  inflating: mtec1003-lab-02/web/img/otters-2.jpg
+  inflating: mtec1003-lab-02/web/img/otters-3.jpg
+  inflating: mtec1003-lab-02/web/img/otters-4.jpg
+  inflating: mtec1003-lab-02/web/img/otters-5.jpg
+  inflating: mtec1003-lab-02/web/index.html
 
 
 ==========
@@ -165,6 +376,50 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 Copy and paste the output below.
 ----------
 
+'3D Objects'/
+ AppData/
+'Application Data'@
+ BrawlhallaReplays/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Creative Cloud Files theamazinghoodini8294@gmail.com b6703650ad6dcfc97b3253e7bfa9bfa6066070d3e484feef33b0913b0732d995'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Intel/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TM.blf
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Twitch/
+ Videos/
+ Zomboid/
+ ansel/
+ curseforge/
+ mtec1003/
+ mtec1003-lab-02/
+ mtec1003-lab-02.zip
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ stuff/
 
 
 ==========
@@ -177,7 +432,7 @@ List the files in the directory you're currently in (which should be stuff).
 Copy and paste the output below.
 ----------
 
-
+it made a text file
 
 ==========
 18. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
@@ -189,7 +444,50 @@ List the files in the directory you're currently in (which should be home).
 Copy and paste the output below.
 ----------
 
-
+'3D Objects'/
+ AppData/
+'Application Data'@
+ BrawlhallaReplays/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Creative Cloud Files theamazinghoodini8294@gmail.com b6703650ad6dcfc97b3253e7bfa9bfa6066070d3e484feef33b0913b0732d995'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Intel/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TM.blf
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Twitch/
+ Videos/
+ Zomboid/
+ ansel/
+ curseforge/
+ mtec1003/
+ mtec1003-lab-02/
+ mtec1003-lab-02.zip
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ stuff/
 
 ==========
 19. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
@@ -199,6 +497,8 @@ $ tar -cvf stuff.tar stuff
 Copy and paste the output below.
 ----------
 
+stuff/
+stuff/hello.text
 
 
 ==========
@@ -206,6 +506,53 @@ Copy and paste the output below.
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
+
+ -1.14-windows.xml
+'3D Objects'/
+ AppData/
+'Application Data'@
+ BrawlhallaReplays/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Creative Cloud Files theamazinghoodini8294@gmail.com b6703650ad6dcfc97b3253e7bfa9bfa6066070d3e484feef33b0913b0732d995'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Intel/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TM.blf
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Twitch/
+ Videos/
+ Zomboid/
+ ansel/
+ curseforge/
+ mtec1003/
+ mtec1003-lab-02/
+ mtec1003-lab-02.zip
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ stuff/
+ stuff.tar
 
 
 
@@ -217,6 +564,52 @@ gzip stuff.tar
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
 
+ -1.14-windows.xml
+'3D Objects'/
+ AppData/
+'Application Data'@
+ BrawlhallaReplays/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Creative Cloud Files theamazinghoodini8294@gmail.com b6703650ad6dcfc97b3253e7bfa9bfa6066070d3e484feef33b0913b0732d995'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Intel/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TM.blf
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Twitch/
+ Videos/
+ Zomboid/
+ ansel/
+ curseforge/
+ mtec1003/
+ mtec1003-lab-02/
+ mtec1003-lab-02.zip
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ stuff/
+ stuff.tar.gz
 
 
 ==========
@@ -231,6 +624,7 @@ Change your directory to mtec1002-lab-02.
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 ----------
 
+stuff.tar.gz
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
@@ -240,6 +634,8 @@ $ tar -xvf stuff.tar.gz
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
 
+stuff/
+stuff/hello.text
 
 
 ==========
@@ -258,7 +654,8 @@ REMEMBER to use the -o flag and specifiy a filenmae that ends in .tar.gz
 
 Write out the commands that you used to do this.
 ----------
-
+curl -o stuff.tar.gz https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/secret.tar.gz
+tar -xvf stuff.tar.gz
 
 
 ==========
