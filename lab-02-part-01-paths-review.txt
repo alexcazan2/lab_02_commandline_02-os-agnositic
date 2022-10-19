@@ -14,7 +14,7 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-cd /
+cd 
 
 ==========
 2. Write the command that you would use to change to your home directory.
@@ -26,19 +26,19 @@ cd ~
 3. Write the command that you would use to change to your Desktop folder.
 ----------
 
-cd Desktop
+cd ~/Desktop
 
 ==========
 4. What's the absolute path to your home directory?
 ----------
 
-cd ~
+c/Users/Alex Cazan
 
 ==========
 5. What's the absolute path to your Desktop directory?
 ----------
 
-cd /Desktop
+c/Users/Alex Cazan/Desktop
 
 ==========
 6. What's the absolute path to your Desktop directory?
