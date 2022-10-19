@@ -107,6 +107,9 @@ $ curl www.google.com
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head><meta content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for." name="description"><meta content="noodp" name="robots"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="HMxUEgil8WGCtsYMPZv6aw">(function(){window.google={kEI:'7EJHY-yQDP-XhbIPlZm_uAM',kEXPI:'0,1302532,56877,6058,207,4804,2316,383,246,5,5367,1123753,1197732,380759,16114,19397,9287,22430,1362,12320,17579,4998,13228,3847,10622,22741,2370,2711,1593,1279,2742,149,1103,840,1983,4314,108,4012,2023,1777,520,14670,3227,2845,7,4773,826,28171,1851,2614,12710,432,3,1590,1,5445,148,11323,2652,4,1528,2304,7039,22023,5708,7355,13660,2980,1457,15351,1435,5830,2527,4094,4052,3,3541,1,42157,2,14019,2373,342,4931,6470,11623,5679,1020,2381,28742,4567,6259,23418,1252,5835,14967,4333,2204,2035,3245,445,2,2,1,10957,13669,2006,239,7916,7381,2,3,1396,14569,873,7829,1796,5212,4796,7,1922,5784,3995,19130,12192,4832,2524,3237,2173,9081,123,700,4,1,2,2,2,2,8653,5264,5134,9738,14,82,3890,751,202,1866,125,817,2343,2063,2209,51,958,1239,488,922,613,248,1075,346,109,363,467,683,899,1548,885,274,50,167,743,498,12,98,244,212,931,108,85,766,773,2247,3013,2,4,46,163,1072,28,3,14,821,39,700,892,1,132,444,261,984,724,309,48,99,562,406,192,146,879,564,1113,78,263,166,717,10,308,853,1469,526,30,99,229,26,208,368,1,2,181,513,69,1020,1615,162,48,2,48,30,1,410,387,240,249,38,448,3,250,380,2,107,756,502,174,2023,5326628,75,54,5995794,2803401,3311,141,795,19736,1,298,48,1754,59,14,5,4,3,4,3,94,7,16,4,3,7451655,13276840,3220020,471,4041671,1964,3094,13579,3405,11319,571,1373449,47704',kBL:'LGL5'};google.sn='webhp';google.kHL='en';})();(function(){
 
 
 ==========
@@ -114,6 +117,9 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
+
+curl -o google.html 
+
 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
